@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Jeet Limbachiya" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jeet Limbachiya">Jeet Limbachiya </h1>
+
+          <p class="title">Product Manager</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jeet@example.com" class="contact-link">jeet@example.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 1234567890" class="contact-link">+91 1234567890</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999-04-11">April 11, 1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vadodara, Gujarat, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I am a results-driven Product Manager with over 2 years of experience in the tech industry, 
+specializing in video management software. Prior to my role as a Product Manager, I worked as a 
+Product Development Engineer in the same industry for 1 year, gaining valuable technical expertise.
+</p> <p>
+As a Product Manager, I am passionate about working cross-functionally with engineering, design, and marketing teams 
+to develop and launch successful products that meet customer needs. I have experience leading product development from 
+ideation to launch, conducting market research and user testing, and creating product roadmaps and feature specifications.
+          </p>
+
+          <p>
+            In my previous role as a Product Development Engineer, I gained hands-on experience in software development 
+and testing, as well as troubleshooting and problem-solving skills. I am a proactive team player with strong 
+communication and interpersonal skills. I enjoy working in fast-paced environments and am constantly seeking 
+opportunities to learn and grow as a professional.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/market research.png
+                " alt="Market research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Conducting market research</h4>
+
+                <p class="service-item-text">
+                  need to stay up-to-date with industry trends, monitor the competition, and gather,
+feedback from users to identify areas where the software can be improved.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/strategy.png
+                " alt="Product strategy icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Developing product strategy</h4>
+
+                <p class="service-item-text">
+                  Develop a product roadmap that outlines the features and functionality that will be added to the 
+software over time, and prioritize these based on user needs and business goals.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/stakeholder.png" alt="Stakeholder engagement icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Communicating with stakeholders</h4>
+
+                <p class="service-item-text">
+                  Need to work closely with the development team to ensure that the software is being built to 
+specification, and communicate progress and updates to other stakeholders such as marketing, sales, and customer support.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/QA.png" alt="Testing and QA icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testing and quality assurance</h4>
+
+                <p class="service-item-text">
+                  As new features are developed, you would need to oversee the testing process to ensure that the 
+software is functioning as expected and meeting user needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/launch.png" alt="Launching icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Launching and promoting the product</h4>
+
+                <p class="service-item-text">
+                  need to work with the marketing team to develop a launch strategy, including messaging and positioning, 
+and develop collateral such as demos and tutorials to help users understand how to use the software.
+                </p>
+              </div>
+
+            </li>
+
+<li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/performance.png" alt="Performance monitoring icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Monitoring performance</h4>
+
+                <p class="service-item-text">
+                  Once the software is launched, you would need to monitor its performance and gather feedback from users 
+to identify areas for improvement and make necessary changes to the product roadmap.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <width="60" data-testimonials-avatar>
+                </figure>
+
+		<div class="contact-info">             
+              <a href="https://www.linkedin.com/in/deanbarrett2/" class="contact-link">
+	<h4 class="h4 testimonials-item-title" data-testimonials-title>Richard Barrett</h4></a>
+            </div>
+
+                
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Jeet has proven his professionalism for our teammates and products that we use everyday. 
+He has guided our designed with great recommendations and diligence. His work stands out and will always be grateful 
+for the time we've spend working together!
+                  </p>
+<p> 
+<time datetime="2022-11-4">4 November, 2022</time></p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <width="60" data-testimonials-avatar>
+                </figure>
+
+                <div class="contact-info">             
+              <a href="https://www.linkedin.com/in/raviraj18/" class="contact-link">
+	<h4 class="h4 testimonials-item-title" data-testimonials-title>Raviraj Lavande</h4></a>
+            </div>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have worked with Jeet on one of the support cases at AWS, I have seen his ML project which was 
+so impressive, I am glad to see his progress at this young age, I see some potential, he would be an asset to the 
+organization. I wish him success
+                  </p>
+<p> 
+<time datetime="2022-11-18">18 September, 2022</time></p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <width="60" data-testimonials-avatar>
+                </figure>
+
+                <div class="contact-info">             
+              <a href="https://www.linkedin.com/in/ashutoshfulzele/" class="contact-link">
+	<h4 class="h4 testimonials-item-title" data-testimonials-title>Ashutosh Fulzele</h4></a>
+            </div>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working in the same team and being his team lead I know Jeet very well.
+He is very hard working, and very proficient in his domain.
+Though being an intermediate in AWS he has contributed a lot in the team to solve core projects.
+Not only he finishes given tasks in time, but also gives out-of-the-box ideas upon deep researching.
+                  </p>
+
+<p> 
+<time datetime="2022-08-17">17 August, 2022</time></p>
+                </div>
+
+              </div>
+            </li>
+
+ <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <width="60" data-testimonials-avatar>
+                </figure>
+
+                <div class="contact-info">             
+              <a href="https://www.linkedin.com/in/krunal-mali/" class="contact-link">
+	<h4 class="h4 testimonials-item-title" data-testimonials-title>Krunal Mali</h4></a>
+            </div>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We were facing one difficulty while uploading our project on AWS cloud and we approached Jeet for 
+consultation. He worked on the same and gave us solution in very mean time. He is a professional person who have good 
+knowledge of technology.
+                  </p>
+<p> 
+<time datetime="2022-11-5">5 November, 2022</time></p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>
+	</h4>
+
+              <div data-modal-text>
+                
+              </div>
+
+            </div>
+
+
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Employeers</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.matrixcomsec.com/">
+                <img src="./assets/images/matrix.png" alt="Matrix logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.relayhumancloud.com/">
+                <img src="./assets/images/Relay.png" alt="Relay Human Cloud logo">
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Product Manager</h4>
+
+              <span>November 2022 — Present</span>
+
+              <p class="timeline-text">
+                As a Assistant product manager, my key roles and responsibilities are Defining and prioritizing product 
+features and functionality, Collaborating with cross-functional teams to drive product development and launch efforts, 
+Conducting competitive analysis and staying up-to-date on industry trends to inform product roadmap decisions,
+Managing the product lifecycle from ideation to launch and ongoing iteration, Analyzing product performance data to 
+identify opportunities for improvement and optimize product outcomes and writing product specification documents.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product Development Engineer</h4>
+
+              <span>August 2021 — November 2022</span>
+
+              <p class="timeline-text">
+                As a Product Development engineer my primary roles and responsibilities was Data Preparation, 
+Machine learning model development for video analysis using computer vision and deep learning, model training and 
+evaluation using standard metrics, deployment of machine learning model to AWS cloud and optimize for performance and 
+scalability and managing version control, also monitoring model performance and making needed adjustments.
+
+              </p>
+
+            </li>
+
+<li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist intern</h4>
+
+              <span>April 2021 — May 2021</span>
+
+              <p class="timeline-text">
+                As a Data Scientist intern my primary roles and responsibilities was Data Preparation, 
+Machine learning model development for Airplane fare price for departure and arrival, model training and 
+evaluation using standard metrics, deployment of machine learning model to Heroku platform and managing version control, 
+also monitoring model performance.
+
+              </p>
+
+            </li>
+
+
+        
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+<li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vadodara Institute of Engineering</h4>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+                Bachelor's of Engineering, Information Technology
+              </p>
+	<p class="timeline-text">
+              Grade: A
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Weltec Institute</h4>
+
+              <span>2020 — 2020</span>
+
+              <p class="timeline-text">
+                Data Science and Machine Learning
+              </p>
+ </p>
+	<p class="timeline-text">
+              Grade: A
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Uma Vidhyalaya</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                Gujarat Secondary and Higher Secondary Education Board, 12th Science
+              </p>
+ </p>
+	<p class="timeline-text">
+              Grade: B
+              </p>
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button  data-filter-btn>Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button  data-filter-btn>Python projects</button>
+            </li>
+
+	<li class="filter-item">
+              <button  data-filter-btn>AWS</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python projects</button>
+              </li>
+
+	<li class="select-item">
+                <button data-select-item>AWS</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Machine Learning">
+        <a href="https://github.com/JeetLimbachiya/Vehicle-Insurance"      
+	
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vehicle insurance.png" alt="Vehicle insurance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vehicle insurance</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+           <li class="project-item  active" data-filter-item data-category="Machine Learning">
+        <a href="https://github.com/JeetLimbachiya/FlightPricePredictionWebapp-Technocolab"      
+	
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/airplane fare price.jpg" alt="Airplane Fare price prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Airplane Fare price prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Machine Learning">
+        <a href="https://github.com/JeetLimbachiya/Mobility-Analytics-FinalYearProject-"      
+	
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mobility.jpg" alt="Mobility Analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mobility Analytics</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Python projects">
+              <a href="https://github.com/JeetLimbachiya/Python-projects">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/python.png" alt="Python projects" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python projects</h3>
+
+                <p class="project-category">Python projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Deep Learning">
+              <a href="https://github.com/JeetLimbachiya/Face_Mask_Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/face mask detection.jpg" alt="Face Mask Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Mask Detection</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Deep Learning">
+              <a href="https://github.com/JeetLimbachiya/License_Plate_Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ANPR.jpg" alt="ANPR" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ANPR</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+	<li class="project-item  active" data-filter-item data-category="Deep Learning">
+              <a href="https://github.com/JeetLimbachiya/RandomErasing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/random erasing.jpg" alt="Random Erasing" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Random Erasing</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+	<li class="project-item  active" data-filter-item data-category="Deep Learning">
+              <a href="https://github.com/JeetLimbachiya/CNN">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mnist.png" alt="Mnist digit recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mnist digit recognition</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+	<li class="project-item  active" data-filter-item data-category="AWS">
+              <a href="https://github.com/JeetLimbachiya/AWS_Face-Object-Redaction-Blurring">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/blur.jpg" alt="AWS face blurring/redaction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AWS face blurring/redaction</h3>
+
+                <p class="project-category">AWS</p>
+
+              </a>
+            </li>
+
+	<li class="project-item  active" data-filter-item data-category="AWS">
+              <a href="https://github.com/JeetLimbachiya/Cal_House_Price_Prediction_AWS_Lambda">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/house price.jpg" alt="AWS House price prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AWS House price prediction</h3>
+
+                <p class="project-category">AWS</p>
+
+              </a>
+            </li>
+
+	<li class="project-item  active" data-filter-item data-category="Analytics vidhya hackathons">
+              <a href="https://github.com/JeetLimbachiya/Analytics-Vidhya-Hackathons">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/hackathons.jpg" alt="Analytics vidhya hackathons" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Analytics vidhya hackathons</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
